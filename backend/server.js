@@ -18,6 +18,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Trust proxy for Render deployment
+app.set('trust proxy', 1);
+
 // CORS middleware
 app.use(cors({
     origin: [

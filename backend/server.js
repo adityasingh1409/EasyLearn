@@ -25,6 +25,7 @@ app.set('trust proxy', 1);
 app.use(cors({
     origin: [
         'http://localhost:3000',
+        'https://easy-learn-iota.vercel.app',
         'https://easy-learn-ruby.vercel.app',
         process.env.CLIENT_URL
     ].filter(Boolean),

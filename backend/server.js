@@ -26,6 +26,7 @@ app.use(cors({
     origin: [
         'http://localhost:3000',
         'https://easy-learn-iota.vercel.app',
+        'https://easy-learn-git-main-adityas-projects-3f4d4157.vercel.app',
         'https://easy-learn-ruby.vercel.app',
         process.env.CLIENT_URL
     ].filter(Boolean),

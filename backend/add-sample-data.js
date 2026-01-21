@@ -111,7 +111,7 @@ const addSampleData = async () => {
             console.log('✓ Sufficient resources exist, skipping resource creation');
         }
 
-        console.log('\n✅ Sample data added successfully!');
+        console.log('\n✅ Sample data added successfully!!');
         console.log('\n📊 Current database status:');
         console.log(`   Users: ${await User.countDocuments()}`);
         console.log(`   Resources: ${await Resource.countDocuments()}`);

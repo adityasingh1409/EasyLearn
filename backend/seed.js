@@ -31,7 +31,7 @@ const seedData = async () => {
         await Resource.deleteMany();
         await Question.deleteMany();
         await Discussion.deleteMany();
-        console.log('✓ Existing data cleared');
+        console.log('✓ Existing data cleared...');
 
         // Create users
         console.log('\nCreating users...');
@@ -76,7 +76,7 @@ const seedData = async () => {
                 reputation: 180
             }
         ]);
-        console.log(`✓ Created ${users.length} users`);
+        console.log(`✓ Created ${users.length} users..`);
 
         // Create resources
         console.log('\nCreating resources...');
@@ -195,6 +195,7 @@ const seedData = async () => {
             }
         ]);
         console.log(`✓ Created ${resources.length} resources`);
+        console.log('this is resources');
 
         // Create questions
         console.log('\nCreating questions...');

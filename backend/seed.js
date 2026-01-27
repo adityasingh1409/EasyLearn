@@ -32,7 +32,6 @@ const seedData = async () => {
         await Question.deleteMany();
         await Discussion.deleteMany();
         console.log('✓ Existing data cleared......');
-        console.log('No draft data found.....');
 
 
         // Create users

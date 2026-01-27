@@ -107,7 +107,7 @@ cd EasyLearn
 
 ### Backend Setup
 ```bash
-# Navigate to backend directory
+# Navigate to backend directory of node 
 cd backend
 
 # Install dependencies
@@ -130,7 +130,7 @@ npm run dev
 
 ### Frontend Setup
 ```bash
-# Navigate to frontend directory
+# Navigate to frontend directory of react
 cd frontend
 
 # Install dependencies

@@ -25,7 +25,7 @@ const Navbar = () => {
                         </Link>
                         <Link to="/questions" className="nav-link">
                             <FiHelpCircle />
-                            <span>Q&A</span>
+                            <span>Questions And Answers</span>
                         </Link>
                         <Link to="/discussions" className="nav-link">
                             <FiMessageSquare />

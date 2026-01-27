@@ -26,15 +26,17 @@ const connectDB = async () => {
 const seedData = async () => {
     try {
         // Clear existing data
-        console.log('Clearing existing data...');
+        console.log('Clearing existing data......');
         await User.deleteMany();
         await Resource.deleteMany();
         await Question.deleteMany();
         await Discussion.deleteMany();
-        console.log('✓ Existing data cleared...');
+        console.log('✓ Existing data cleared......');
+        console.log('No draft data found.....');
+
 
         // Create users
-        console.log('\nCreating users...');
+        console.log('\nCreating users......');
         const users = await User.create([
             {
                 username: 'john_doe',
@@ -76,7 +78,7 @@ const seedData = async () => {
                 reputation: 180
             }
         ]);
-        console.log(`✓ Created ${users.length} users..`);
+        console.log(`✓ Total Created  ${users.length} users..`);
 
         // Create resources
         console.log('\nCreating resources...');

@@ -20,13 +20,13 @@ A modern, full-stack MERN (MongoDB, Express, React, Node.js) web application for
 ## ✨ Features
 
 ### 🎯 Core Features
-- **User Authentication** - Secure JWT-based authentication with bcrypt password hashing
-- **Resource Sharing** - Upload and share educational resources with the community
-- **Q&A Forum** - Ask questions and get answers from peers
-- **Discussion Forums** - Engage in topic-based discussions
-- **Profile Management** - Customize your profile with avatar upload
-- **Bookmark System** - Save your favorite resources for later
-- **Theme Toggle** - Switch between light and dark modes
+- **User Authentication** - Secure JWT-based authentication with bcrypt password hashing..
+- **Resource Sharing** - Upload and share educational resources with the community..
+- **Q&A Forum** - Ask questions and get answers from peers..
+- **Discussion Forums** - Engage in topic-based discussions..
+- **Profile Management** - Customize your profile with avatar upload..
+- **Bookmark System** - Save your favorite resources for later..
+- **Theme Toggle** - Switch between light and dark modes..
 
 ### 📚 Resources
 - Browse educational resources by category

@@ -35,7 +35,7 @@ const createUser = async () => {
             console.log('\n✅ User created successfully!');
             console.log('Email:', newUser.email);
             console.log('Username:', newUser.username);
-            console.log('\nYou can now login with:');
+            console.log('\nYou can now login with Your Email and Password:');
             console.log('Email: adityasingh28240@gmail.com');
             console.log('Password: password123');
         }

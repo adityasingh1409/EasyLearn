@@ -1,6 +1,6 @@
 # 🎓 EasyLearn - Collaborative Learning Platform
 
-A modern, full-stack MERN (MongoDB, Express, React, Node.js) web application for peer-to-peer learning, resource sharing, and collaborative education.
+A modern, full-stack MERN (MongoDB, Express, React, Node.js) web application for peer-to-peer learning, resource sharing, and collaborative education...
 
 ![EasyLearn](https://img.shields.io/badge/MERN-Stack-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
